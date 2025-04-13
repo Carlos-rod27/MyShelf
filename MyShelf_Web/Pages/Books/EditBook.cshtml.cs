@@ -73,7 +73,7 @@ namespace MyShelf_Web.Pages.Books
                             BookTitle = reader.GetString(1),
                             BookSummary = reader.GetString(2),
                             ISBN13 = reader.GetString(3),
-                            PageCount = reader.GetInt32(4),
+                            PageCount = reader.GetInt32(4),                                 
                             Price = reader.GetDecimal(5),
                             LanguageID = reader.GetInt32(6),
                             FormatID = reader.GetInt32(7),
